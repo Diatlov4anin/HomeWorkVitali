@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4a99d3;
+    color: #ffffff;
+}
+
+header {
+    height: 110px;
+}
+
+.backgound__cloud {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.backgound__cloudbig1 {
+    position: absolute;
+    top: 165px;
+}
+
+.backgound__cloudsmall {
+    position: absolute;
+    top: 376px;
+    left: 244px;
+}
+
+.backgound__cloudbig2 {
+    position: absolute;
+    top: 344px;
+    left: 635px;
+}
+
+.container {
+    max-width: 799px;
+    min-width: 700px;
+    margin: 0 auto;
+}
+
+.main__items {
+    background-color: rgba(33, 63, 99, 0.67);
+    position: relative;
+}
+
+.cloud-title {
+    position: absolute;
+    transform: translate(50%, -50%);
+    right: 0;
+}
+
+h1 {
+    max-width: 655px;
+    margin: auto;
+    font-size: 36px;
+    padding-top: 55px;
+    padding-bottom: 35px;
+    line-height: 21.60px;
+}
+
+.main__items p {
+    max-width: 655px;
+    margin: auto;
+    font-size: 14px;
+    word-break: auto;
+    line-height: 21.60px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    max-width: 655px;
+    margin: auto;
+    font-size: 30px;
+    padding-top: 10px;
+    line-height: 21.60px;
+    padding-bottom: 20px;
+}
+
+.main__birds {
+    display: flex;
+    max-width: 655px;
+    min-width: 550px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 150px;
+    padding-bottom: 170px;
+    margin-left: 70px;
+}
+
+.bird2 {
+    border-top: solid 2px #884c35;
+}
+
+footer {
+    position: fixed;
+    background-image: url(../images/grass.png);
+    height: 130px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

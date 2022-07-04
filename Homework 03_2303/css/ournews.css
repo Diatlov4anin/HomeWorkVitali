@@ -1,0 +1,67 @@
+* {margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+background-image: url(../images/backgroundbig.png);
+background-size: cover;
+}
+
+    header, .Leptop, .Phone {
+        margin-left: 430px;
+        margin-right: 430px;
+        margin-bottom: 10px;
+        border-radius: 20px 0px 20px 0px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 2.5rem;
+        padding: 20px;
+        background-color: rgba(160, 158, 158, 0.55);
+   }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-weight: bold;
+color: rgb(236, 173, 0);
+padding-bottom: 25px;
+    }
+
+    img {
+    margin-left: 35px;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-left: 35px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    float: right;
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(226, 2, 2);  
+    font-weight: bold;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .Leptop {
+       border: 5px solid rgb(133, 133, 133);
+       margin-bottom: 30px;
+       padding-bottom: 50px;
+    }
+
+    .Phone {
+       border: 5px dashed rgb(133, 133, 133);
+       padding-bottom: 50px;
+    }
+    

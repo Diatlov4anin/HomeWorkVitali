@@ -1,0 +1,152 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-image: url(../images/background.svg);
+    background-size: cover 1;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.container-header {
+    margin: auto;
+    max-width: 1080px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.header__logo {
+    float: left;
+    padding-top: 43px;
+    padding-left: -4px;
+}
+
+.header__nav li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.header__nav {
+    padding: 59px 0px 59.5px 122px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header__link_select {
+    text-decoration: none;
+    color: #C08D5D;
+}
+
+.hr {
+    border-bottom: 1px solid #C08D5D;
+    max-width: 470px;
+    padding-top: 8.5px;
+}
+
+.container-main {
+    margin: auto;
+    max-width: 1080px;
+}
+
+.main__title {
+    padding-top: 110.5px;
+}
+
+.main__logo p {
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    padding-left: 4px;
+}
+
+.main__logo p::after {
+    content: url(../images/Logo2.svg);
+    padding-left: 8px;
+    vertical-align: sub;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    padding-left: 4px;
+    padding-top: 7px;
+}
+
+h1::after {
+content: url(../images/Vector1.svg);
+display: block;
+}
+
+.main__text {
+    width: 539px;
+}
+
+.main__text p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    padding: 25.97px 0px 0px 4px;
+}
+
+.main__button {
+    padding: 72px 0px 40px 4px;
+}
+
+.main__button a {
+    width: 197px;
+    height: 64px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    text-align: center;
+    text-decoration: none;
+    padding: 17px 0px 17px 15px;
+    background: #FFFAF3;
+    border: 2px solid #C08D5D;
+}
+
+.main__button a::after {
+    content: "\21C0";
+    color: white;
+    display: inline-block;
+    background-color: #C08D5D;
+    width: 64px;
+    height: 64px;
+    margin-left: 11px;
+    line-height: 60px;
+    border: 2px solid #C08D5D;
+}
+
+.mouse__up {
+    text-align: center;
+    padding: 74px 0px 68.6px 0px;
+}
